@@ -87,7 +87,7 @@ main {
 h3 {
   font-family: Poppins;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 23px;
   color: #37393F;
   margin-bottom: 16px;
 }
@@ -133,4 +133,59 @@ h5 {
   height: 72px;
   border-radius: 50%;
   background-color: #6B77E5;
+}
+
+.player {
+  width: 100%;
+  height: 557px;
+  background-image: url(/images/image\ 72.svg);
+}
+
+.player-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 143px 704px;
+}
+
+.player-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64.5px;
+  height: 64.5px;
+  border-radius: 50%;
+  background-color: #6B77E5;
+}
+
+.player-text {
+  width: 511px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  color: #37393F;
+  padding-top: 21px;
+  padding-bottom: 47px;
+}
+
+footer {
+  margin: 155px 350px 112px 350px;
+  text-align: center;
+}
+
+.photos {
+  display: flex;
+  margin-top: 41px;
+  column-gap: 38px;
+}
+
+.white-box {
+  position: absolute;
+  transform: translate(23px, -140px);
+  background-color: #FFFFFF;
+  color: black;
+  width: 341px;
+  height: 114px;
+  padding: 24px 69px;
 }
