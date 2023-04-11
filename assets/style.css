@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  margin: 53px 350px 136px 350px;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  margin-left: 195px;
+}
+
+nav ul {
+  width: 601px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+li {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  color: #37393F;
+}
+
+.consulting {
+  width: 184px;
+  height: 65px;
+  margin-left: 40px;
+  background-color: #6B77E5;
+  font-family: ;
+  color: #FFFFFF;
+}
